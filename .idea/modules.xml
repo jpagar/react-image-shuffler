@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../nodejs/.idea/nodejs.iml" filepath="$PROJECT_DIR$/../nodejs/.idea/nodejs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/state-events-practice.iml" filepath="$PROJECT_DIR$/.idea/state-events-practice.iml" />
     </modules>
   </component>
