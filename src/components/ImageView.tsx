@@ -18,12 +18,8 @@ export const ImageView = ({imageUrl}: Props) => {
     }, [image, imageUrl])
 
     return (
-        <Container>
-            <Row className="py-3 bg-dark-subtle rounded-1">
-                <Ratio aspectRatio="16x9">
-                    <Image src={image} className=""></Image>
-                </Ratio>
-            </Row>
-        </Container>
+        <Row className="py-3 bg-dark-subtle rounded-1">
+            <Image src={image} className="" fluid></Image>
+        </Row>
     )
 }
