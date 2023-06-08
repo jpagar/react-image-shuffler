@@ -1,11 +1,10 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Quote} from "./components/Quote";
 import Container from "react-bootstrap/Container";
 import {Timer} from "./components/Timer";
 import {ImageView} from "./components/ImageView";
-import image from "./images/th-3989514546.jpeg"
 import {DropElement} from "./components/DropElement";
 
 
@@ -81,7 +80,6 @@ function App() {
         console.log(`Image Url Count: ${imageUrls.length}`)
     }, [imageUrls])
 
-    const isImageListEmpty = imageUrls.length === 0
 
 
     return (
