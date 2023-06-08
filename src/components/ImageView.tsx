@@ -1,9 +1,7 @@
 import React, {useState, useEffect} from "react";
-
-import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
-import {Ratio} from "react-bootstrap";
+
 
 interface Props {
     imageUrl: string
